@@ -198,7 +198,6 @@ library
                     , MultiParamTypeClasses
 
   c-sources: cbits/erf.c
-  extra-libraries: m
 
 test-suite doctests
   type:          exitcode-stdio-1.0
